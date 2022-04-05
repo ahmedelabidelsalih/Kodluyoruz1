@@ -98,5 +98,22 @@ h1 {
     background-color:var(--third-color);
     box-shadow:  5px 10px 10px rgba(0, 0, 0, 0.27);
 }
-#name{
+#resulte{
+    margin-top: 30px ;
+    font-size: 30px;
+    background: linear-gradient(90deg, #121e2a  , var(--third-color),#071b2f ,var( --fortye-color));
+    background-size: 200%;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+    animation-direction: reverse;
+}
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 200%;
+    }
 }
