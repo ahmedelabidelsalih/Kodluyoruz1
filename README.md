@@ -9,3 +9,7 @@
 - Fetch api kullanılarak https://randomuser.me/ üzerinden verilerin alınması 
 - Alınan verilerin yaşa göre filtrelenmesi
 - basit html css önyüz yapılsın
+
+
+
+https://ahmedelabidelsalih.github.io/Kodluyoruz1/
