@@ -3,7 +3,7 @@
 ## this is my task with Kodluyoruz 
 
 
-### bu my odev ile kodluyoruz 
+### bu benim odev ile kodluyoruz 
 
 
 - Fetch api kullanılarak https://randomuser.me/ üzerinden verilerin alınması 
