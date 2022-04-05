@@ -1,0 +1,101 @@
+:root{
+  --first-color:#ffffff;
+  --second-color:#b4b9c6;
+  --third-color:#7b899f;
+  --fortye-color:#3d658e;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(var(--first-color), var(--second-color), var(--third-color));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body .container{
+    
+    background: linear-gradient(var(--second-color), var(--third-color), var(--fortye-color));
+    text-align: center;
+    width: 25%;
+    height: 62%;
+    border-radius: 8px;
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.27),
+    10px 10px 10px rgba(0, 0, 0, 0.15);
+
+}
+@media (max-width: 990px) {
+    body .container{
+        width: 40%;
+        height: 60%;
+    }
+}
+@media (max-width: 770px) {
+    body .container{
+        width: 40%;
+        height: 63%;
+    }
+}
+@media (max-width:600px) {
+    body .container{
+        width: 50%;
+        height: 65%;
+    }
+}
+@media (max-width:450px) {
+    body .container{
+        width: 70%;
+        height: 62%;
+    }
+}
+.container img{
+  
+   border: 5px solid var(--first-color);
+    border-radius: 50%;
+    
+  
+}
+h1 {
+    color: var(--second-color);
+}
+#title{
+    color: black;
+    margin: 15px 0;
+   
+}
+#next {
+    
+    background-color: var( --fortye-color);
+    width: 100px;
+    height: 40px;
+    color: var(--second-color);
+    margin: 50px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 10px;
+    transition: 0.5s;
+    border-radius: 5PX;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+#next:hover{
+    color: var(--fortye-color);
+    background-color: var( --second-color);
+}
+#name ,#age ,#counter , #cell{
+    margin: 20px 0;
+    text-shadow:  10px 10px 10px rgba(0, 0, 0, 0.20);
+    color: var(--second-color);
+}
+#code{
+    background-color:var(--third-color);
+    box-shadow:  5px 10px 10px rgba(0, 0, 0, 0.27);
+}
+#name{
+}
