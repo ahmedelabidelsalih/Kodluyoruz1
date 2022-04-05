@@ -7,6 +7,9 @@
 // })
 //  old way
 
+
+// in down modern way for fetch Api
+
 async function giveMe(){
     const response = await fetch(`https://randomuser.me/api/1.3`);
     const myData = await response.json();
