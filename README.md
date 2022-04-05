@@ -11,7 +11,8 @@
 - basit html css önyüz yapılsın
 
 
-
+ #### live server
+ 
 https://ahmedelabidelsalih.github.io/Kodluyoruz1/
 
 
